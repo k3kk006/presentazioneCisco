@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <head>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var copertina = document.getElementById('copertinaPrincipale');
+                copertina.classList.add('slideInRight');
+            });
+        </script>
+    </head>
+    
+</head>
+<body>
+    <header id="navbarSystem" ></header>
+    <main>
+        <section>
+            
+              
+              <img src="immaginiPacketTracer/copertina15.jpg" class="imgCopertina" id="copertinaPrincipale">
+            
+            <div id="main">
+                <!-- Introduzione ------------------------------------------------------------------------------------------------------------------------------->
+                      <div class="col">
+                        <div id="puntatore0" class="slide">
+                            <div class="contenitoreTitolo1  animatedElement slideInTop">
+                                <h1 class="titolo1">Introduzione a Cisco Packet Tracer</h1>
+                            </div>
+                            <div class="boxFlex ">
+                                <div class="box2  animatedElement slideInTop" onclick="showSection(0)">
+                                    <div class="contenitoreImmagineCard">
+                                        <img src="immaginiPacketTracer\copertina17.png" class="imgCard">
+                                    </div>
+                                    <div class="testoCard">
+                                        <h2>Che cos'è Cisco Packet Tracer?</h2>
+                                        <p class="paragrafoCard">Cisco Packet Tracer è un software di simulazione di reti sviluppato da Cisco Systems. È uno strumento utilizzato per la progettazione, la creazione e la configurazione di reti di computer virtuali.</p>
+                                    </div>
+                                </div>
+                                <div class="box2  animatedElement slideInTop "onclick="showSection(1)">
+                                    <div class="contenitoreImmagineCard">
+                                        <img src="immaginiPacketTracer\immaginecontorno(1).jpg" class="imgCard">
+                                    </div>
+                                    <div class="testoCard">
+                                        <h2>Scopo e vantaggi</h2>
+                                        <p class="paragrafoCard">Cisco Packet Tracer consente agli utenti di simulare, creare e testare reti virtuali, fornendo un ambiente sicuro e controllato per l'apprendimento e la pratica delle competenze di networking.</p>
+                                    </div>
+                                </div>
+                                <div class="box2 animatedElement slideInTop"onclick="showSection(2)">
+                                    <div class="contenitoreImmagineCard">
+                                        <img src="immaginiPacketTracer\download2.jpg" class="imgCard">
+                                    </div>
+                                    <div class="testoCard">
+                                        <h2>Guida all'installazione e requisiti di sistema</h2>
+                                        <p class="paragrafoCard">La guida all'installazione fornisce istruzioni dettagliate su come installare Cisco Packet Tracer sul proprio sistema e i requisiti hardware e software necessari.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                
+                <!-- Un po' di storia  ------------------------------------------------------------------------------------------------------------------------------------------------>
+                <div id="puntatore1" class="slide">
+                    <div class="contenitoreTitolo1 animatedElement slideInTop">
+                        <h1 class="titolo1">Un po' di storia di Cisco Packet Tracer</h1>
+                    </div>
+                    <div class="boxSenzaFlex">         
+                        <div class="box4" onclick="showSection(3)">
+                            <div class="portante animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\copertina18.jpeg" class="imgSinistra">
+                            </div>
+                            <div class="box5">
+                                <div class="box animatedElement slideInRight">
+                                    <h2 class="testoBox">Le origini</h2>
+                                    <p class="testoBox">Esplora il background e l'evoluzione di Cisco Packet Tracer dalle sue prime versioni fino ai giorni nostri.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <br>
+                        <div class="box4" onclick="showSection(4)">
+                            <div class="box5">
+                                <div class="box animatedElement slideInLeft">
+                                    <h2 class="testoBox">Sviluppi chiave</h2>
+                                    <p class="testoBox">Scopri i momenti cruciali nella storia di Cisco Packet Tracer e come hanno contribuito alla sua crescita e popolarità.</p>
+                                </div>
+                            </div>
+                            <div class="portante animatedElement slideInRight">
+                                <img src="immaginiPacketTracer\copertina20.jpeg" class="imgDestra">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="box4" onclick="showSection(5)">
+                            <div class="portante animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\immaginecontorno(17).jpg" class="imgSinistra">
+                            </div>
+                            <div class="box5">
+                                <div class="box animatedElement slideInRight">
+                                    <h2 class="testoBox">Innovazioni e aggiornamenti</h2>
+                                    <p class="testoBox">Approfondisci le innovazioni tecnologiche e gli aggiornamenti più recenti che hanno reso Cisco Packet Tracer uno strumento indispensabile per gli appassionati di reti.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="box4" onclick="showSection(6)">
+                            <div class="box5">
+                                <div class="box animatedElement slideInLeft">
+                                    <h2 class="testoBox">Impatto e futuro</h2>
+                                    <p class="testoBox">Analizza l'impatto di Cisco Packet Tracer sul settore delle reti e le prospettive future di questa potente piattaforma di simulazione.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="portante animatedElement slideInRight">
+                                <img src="immaginiPacketTracer\image.gif" class="imgDestra">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- A cosa serve? ------------------------------------------------------------------------------------------------------------------------------>
+                <div id="puntatore2" class="slide">
+                    <div class="contenitoreTitolo1 animatedElement slideInTop">
+                        <h1 class="titolo1">Funzionalità di Cisco Packet Tracer</h1>
+                    </div>
+                    <div class="boxSenzaFlex">         
+                        <div class=" box4"onclick="showSection(7)">
+                            <div>
+                                <div class="box animatedElement slideInLeft">
+                                    <h2 class="testoBox">Simulazione di reti</h2>
+                                    <p class="testoBox">Cisco Packet Tracer consente agli utenti di simulare reti virtuali e testare diverse configurazioni di rete.</p>
+                                </div>
+                            </div>
+                            <div class="portante animatedElement slideInRight">
+                                <img src="immaginiPacketTracer\immaginecontorno(15).jpg" class="imgDestra">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="box4" onclick="showSection(8)">
+                            <div class="portante animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\immaginecontorno(13).jpg" class="imgSinistra">
+                            </div>
+                            <div>
+                                <div class="box animatedElement slideInRight">
+                                    <h2 class="testoBox">Creazione e configurazione di topologie di rete</h2>
+                                    <p class="testoBox">Gli utenti possono creare e configurare topologie di rete complesse utilizzando una vasta gamma di dispositivi di rete Cisco.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="box4" onclick="showSection(9)">
+                            <div>
+                                <div class="box animatedElement slideInLeft">
+                                    <h2 class="testoBox">Implementazione di dispositivi di rete Cisco</h2>
+                                    <p class="testoBox">Cisco Packet Tracer offre una vasta selezione di dispositivi di rete Cisco che possono essere implementati e configurati nelle topologie di rete.</p>
+                                </div>
+                            </div>
+                            <div class="portante animatedElement slideInRight">
+                                <img src="immaginiPacketTracer\immaginecontorno(14).jpg" class="imgDestra">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="box4" onclick="showSection(10)">
+                            <div class="portante animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\immaginecontorno(12).jpg" class="imgSinistra">
+                            </div>
+                            <div class="box animatedElement slideInRight">
+                                <h2 class="testoBox">Strumenti di analisi e diagnostica</h2>
+                                <p class="testoBox">Packet Tracer fornisce strumenti per monitorare, analizzare e diagnosticare reti virtuali.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dispositivi e Tecnologie Supportate -->
+                <div id="puntatore3" class="slide">
+                    <div class="contenitoreTitolo1 animatedElement slideInTop">
+                        <h1 class="titolo1">Dispositivi e Tecnologie Supportate</h1>
+                    </div>
+                    <div>
+                        <div class="boxColonne">
+                            <div class="colonna33">
+                                <div class="cardCon2colonne animatedElement slideInDown" onclick="showSection(11)">
+                                    <h2>Router Cisco</h2>
+                                    <p>cos'è un Router?</p>
+                                    <img src="immaginiPacketTracer\router.png" class="imgCardRettangolare">
+                                </div>
+                                <div class="cardCon2colonne animatedElement slideInDown" onclick="showSection(14)">
+                                    <h2>Firewall Cisco</h2>
+                                    <p>cos'è un Firewall?</p>
+                                    <img src="immaginiPacketTracer\firewall.jpeg" class="imgCardRettangolare">
+                                </div>
+                            </div>
+                            <div class="colonna33">
+                                <div class="cardCon2colonne animatedElement slideInDown"onclick="showSection(12)">
+                                    <h2>Switch Cisco</h2>
+                                    <p>cos'è uno Switch?</p>
+                                    <img src="immaginiPacketTracer\switch.jpg" class="imgCardRettangolare">
+                                </div>
+                                <div class="cardCon2colonne animatedElement slideInDown" onclick="showSection(15)">
+                                    <h2>Telefoni IP Cisco</h2>
+                                    <p>cos'è un telefono IP?</p>
+                                    <img src="immaginiPacketTracer\telefonoIP.jpg" class="imgCardRettangolare">
+                                </div>
+                            </div>
+                            <div class="colonna33">
+                                <div class="cardCon2colonne animatedElement slideInDown"onclick="showSection(13)">
+                                    <h2>Dispositivi wireless Cisco</h2>
+                                    <p>cos'è un Dispositivo wireless?</p>
+                                    <img src="immaginiPacketTracer\AP.jpg" class="imgCardRettangolare">
+                                </div>
+                                <div class="cardCon2colonne animatedElement slideInDown" onclick="showSection(16)">
+                                    <h2>Altri dispositivi e tecnologie</h2>
+                                    <p>Altri dispositivi : server, hub, etc.</p>
+                                    <img src="immaginiPacketTracer\hub.jpeg" class="imgCardRettangolare">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Utilizzo di Cisco Packet Tracer ---------------------------------------------------------------------------------------------------------------------------------->
+                <div id="puntatore4" class="slide">
+                    <div class="contenitoreTitolo1 animatedElement slideInTop">
+                        <h1 class="titolo1">Introduzione a Cisco Packet Tracer</h1>
+                    </div>
+                    <div class="boxColonne">
+                        <div class="colonna" >
+                            <div class="cardCon2colonne animatedElement enlarge">
+                                <iframe src="https://www.youtube.com/embed/cJZEFHoAObE" frameborder="0" allowfullscreen></iframe>
+                                <div class="testoCard">
+                                    <h2>Creazione di un nuovo progetto</h2>
+                                    <p>Come iniziare un nuovo progetto e iniziare a creare e configurare una rete virtuale.</p>
+                                </div>
+                            </div>
+                            <div class="cardCon2colonne animatedElement enlarge">
+                                <iframe src="https://www.youtube.com/embed/OXV--sPLGRk" frameborder="0" allowfullscreen></iframe>
+                                <div class="testoCard">
+                                    <h2>Aggiunta e configurazione di dispositivi</h2>
+                                    <p>Come aggiungere dispositivi di rete alla topologia e configurarli secondo le proprie esigenze.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="colonna">
+                            <div class="cardCon2colonne animatedElement enlarge">
+                                <iframe src="https://www.youtube.com/embed/cY3WuHdmFmQ" frameborder="0" allowfullscreen></iframe>
+                                <div class="testoCard">
+                                    <h2>Configurazione di connessioni e interfacce</h2>
+                                    <p>Come collegare i dispositivi tra loro e configurare le interfacce di rete.</p>
+                                </div>
+                            </div>
+                        
+                            <div class="cardCon2colonne animatedElement enlarge">
+                                <iframe src="https://www.youtube.com/embed/yRItNW_MnQM" frameborder="0" allowfullscreen></iframe>
+                                <div class="testoCard">
+                                    <h2>Configurazione di protocolli di rete</h2>
+                                    <p>Come configurare protocolli di rete come IPv4, IPv6, DHCP, ecc. (nel video si usa un router con funzione di server DHCP)
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Esercizi e Progetti Pratici -->
+                <div id="puntatore5" class="slide">
+                    <div class="contenitoreTitolo1 animatedElement slideInTop">
+                        <h1 class="titolo1">Esercizi e Progetti Pratici</h1>
+                    </div>
+                    <div class="box4" onclick="showSection(17)">
+                        <div>
+                            <div class="box animatedElement slideInLeft">
+                                <h2 class="testoBox">Esercizi di configurazione di base</h2>
+                                <p class="testoBox">Esercizi pratici per acquisire competenze di base nella configurazione di dispositivi di rete.</p>
+                            </div>
+                        </div>
+                        <div class="portante animatedElement slideInRight">
+                            <img src="immaginiPacketTracer\immaginecontorno(21).png" class="imgDestra">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="box4" onclick="showSection(18)">
+                        <div class="portante animatedElement slideInLeft">
+                            <img src="immaginiPacketTracer\immaginecontorno(24).jpg" class="imgSinistra">
+                        </div>
+                        <div>
+                            <div class="box animatedElement slideInRight">
+                                <h2 class="testoBox">Progetti di reti LAN</h2>
+                                <p class="testoBox"> Progetti pratici per la progettazione e l'implementazione di reti locali.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="box4" onclick="showSection(19)">
+                        <div>
+                            <div class="box animatedElement slideInLeft">
+                                <h2 class="testoBox">Progetti di reti WAN</h2>
+                                <p class="testoBox"> Progetti pratici per la progettazione e l'implementazione di reti wide area.</p>
+                            </div>
+                        </div>
+                        <div class="portante animatedElement slideInRight">
+                            <img src="immaginiPacketTracer\immaginecontorno(22).jpg" class="imgDestra">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="box4" onclick="showSection(20)">
+                        <div class="portante animatedElement slideInLeft">
+                            <img src="immaginiPacketTracer\immaginecontorno(23).jpg" class="imgSinistra">
+                        </div>
+                        <div class="box animatedElement slideInRight">
+                            <h2 class="testoBox">Implementazione di servizi di rete</h2>
+                            <p class="testoBox">Progetti pratici per l'implementazione di servizi di rete come VPN, VoIP, etc.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Risorse di Apprendimento Aggiuntive -->
+                <div id="puntatore6" class="slide">
+                    <div class="contenitoreTitolo1 animatedElement slideInTop">
+                        <h1 class="titolo1">Risorse di Apprendimento Aggiuntive</h1>
+                    </div>
+                    <div class="boxSenzaFlex">
+                        <div class="testocentrato">
+                            <div class="box2 animatedElement enlarge">
+                                <h2>Tutorial video</h2>
+                                <p>Risorse video per imparare ad utilizzare Packet Tracer.</p>
+                                <iframe src="https://tutorials.ptnetacad.net/"></iframe>
+                            </div>
+                            <div class="box2 animatedElement enlarge">
+                                <h2>Guide passo-passo</h2>
+                                <p>Guide dettagliate per l'apprendimento delle funzionalità avanzate di Packet Tracer.</p>
+                                <iframe src="https://www.didamatteifortunato.it/wp-content/uploads/Packet-Tracer_-introduzione.pdf" frameborder="0"></iframe>
+
+                            </div>
+                            <div class="box2 animatedElement enlarge">
+                                <h2>Comunità online e forum di discussione</h2>
+                                <p>Risorse online per chiedere aiuto, condividere esperienze e apprendere dagli altri utenti di Packet Tracer.</p>
+                                <div class="boxColonne animatedElement enlarge">
+                                    <div class="colonna33">
+                                        <a href="https://www.packettracernetwork.com/labs/" target="_blank" class="bottone33">
+                                            <button class="bottone33"><p class="testoCard">Configurazioni di base</p></button>
+                                        </a>
+                                    </div>
+                                    <div class="colonna33 animatedElement enlarge">
+                                        <a href="https://www.packettracernetwork.com/tutorials/" target="_blank" class="bottone33">
+                                            <button class="bottone33"><p class="testoCard">Tutorial</p></button>
+                                        </a>                                       
+                                    </div>
+                                    <div class="colonna33 animatedElement enlarge">
+                                        <a href="https://www.packettracernetwork.com/internet-of-things/" target="_blank" class="bottone33">
+                                            <button class="bottone33"><p class="testoCard">IoT</p></button>
+                                        </a>  
+                                    </div>
+                                </div>
+                            </div>                        
+                        </div>
+                    </div>    
+                </div>
+                <!-- Utilizzo e vantaggi -->
+                <div id="puntatore7" class="slide layoutFinePage">
+                    <div class="contenitoreTitolo1 animatedElement slideInTop">
+                        <h1 class="titolo1">Utilizzo e vantaggi</h1>
+                    </div>
+                    <div class="boxFlex">
+                         <div class="box2 animatedElement slideInDown"onclick="showSection(23)">
+                            <div class="contenitoreImmagineCard immaginiPuntatore7">
+                                <img src="immaginiPacketTracer\image4.gif" class="imgCard">
+                            </div>
+                            <br>
+                            <h2>Dispositivi di rete preconfigurati</h2>
+                        </div>
+                        <div class="box2 animatedElement slideInDown"onclick="showSection(21)">
+                            <div class="contenitoreImmagineCard immaginiPuntatore7">
+                                <img src="immaginiPacketTracer\image2.gif" class="imgCard">
+                            </div>
+                            <br>
+                            <h2>Simulazione realistica delle reti</h2>
+                        </div>
+                        <div class="box2 animatedElement slideInDown" onclick="showSection(22)">
+                            <div class="contenitoreImmagineCard immaginiPuntatore7">
+                                <img src="immaginiPacketTracer\image3.gif" class="imgCard">
+                            </div>
+                            <br>
+                            <h2>Apprendimento pratico</h2>
+                        </div>
+                       
+                    </div>
+                
+                    <div class="boxColonne ">
+                        
+                        <div class="cardCon2colonne animatedElement slideInDown" onclick="showSection(24)">
+                            <div class="contenitoreImmagineCard immaginiPuntatore7">
+                                <img src="immaginiPacketTracer\image5.gif" class="imgCard">
+                            </div>
+                            <br>
+                            <h2>Supporto per lezioni e laboratori</h2>
+                        </div>
+                        <div class="cardCon2colonne animatedElement slideInDown" onclick="showSection(25)">
+                            <div class="contenitoreImmagineCard immaginiPuntatore7">
+                                <img src="immaginiPacketTracer\image6.gif" class="imgCard">
+                            </div>
+                            <br>
+                            <h2>Sviluppo delle competenze pratiche</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        
+        <div id="sezione" class="sezione">
+            <!-- Sezione 0 -->
+            <div id="sezione0" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(0)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Che cos'è Cisco Packet Tracer?</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\copertina1.jpg" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>Cisco Packet Tracer è un software di simulazione di reti sviluppato da Cisco Systems. È uno strumento utilizzato per la progettazione, la creazione e la configurazione di reti di computer virtuali.</b></p>
+                                    <br>
+                                    <p class="testoBox">Cisco Packet Tracer è molto più di un semplice software di simulazione di reti. È uno strumento versatile e potente che consente agli utenti di creare ambienti di rete virtuali complessi e realistici. Grazie alla sua interfaccia intuitiva e alle sue funzionalità avanzate, gli studenti e i professionisti possono progettare e configurare reti informatiche complete, comprendendo sia l'hardware che il software utilizzati nei dispositivi di rete reali. Inoltre, Cisco Packet Tracer offre una vasta gamma di dispositivi di rete preconfigurati, come router, switch, firewall e altri componenti, consentendo agli utenti di simulare situazioni reali e di testare le proprie competenze senza la necessità di disporre di una vasta gamma di hardware fisico.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <br>                           
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Sezione 1 -->
+            <div id="sezione1" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(1)">Chiudi</button>
+                </div>
+                    <div class="row">
+                        <div class="contenitoreTitolo1  animatedElement slideInTop col"">
+                            <h1 class="titolo1">Scopo e vantaggi</h1>
+                        </div>
+                        <div>
+                            <div class="divSezioneSpecifica col">
+                                <div class="colonna animatedElement slideInLeft">
+                                    <img src="immaginiPacketTracer\immaginecontorno(7).jpg" class="imgSezione">
+                                </div>
+                                <div class="colonna">
+                                    <div class="box animatedElement slideInRight">
+                                        <p class="testoBox"><b>Cisco Packet Tracer consente agli utenti di simulare, creare e testare reti virtuali, fornendo un ambiente sicuro e controllato per l'apprendimento e la pratica delle competenze di networking.</b></p>
+                                        <br>
+                                        <p class="testoBox">Cisco Packet Tracer è uno strumento cruciale nell'apprendimento e nella pratica delle competenze di networking. Permette agli utenti di simulare reti virtuali in un ambiente sicuro, consentendo loro di sperimentare configurazioni complesse senza rischi. Facilmente accessibile, offre un'esperienza interattiva che aiuta gli studenti a comprendere meglio i concetti teorici, fornendo strumenti avanzati per monitorare il traffico di rete e risolvere problemi. È gratuito per gli studenti e gli educatori tramite Cisco Networking Academy, rendendolo ampiamente utilizzato nell'istruzione e nella formazione. Esso è essenziale per l'acquisizione di competenze pratiche e problem-solving nel networking, grazie alla sua facilità d'uso e alla sua versatilità.</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <br>                           
+                        </div>
+                    </div>   
+            </div>
+        
+            <!-- Sezione 2 -->
+            <div id="sezione2" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(2)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Guida all'installazione e requisiti di sistema</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\immaginecontorno(16).jpg" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>La guida all'installazione fornisce istruzioni dettagliate su come installare Cisco Packet Tracer sul proprio sistema e i requisiti hardware e software necessari.</b></p>
+                                    <br>
+                                    <p class="testoBox"> 
+                                        <a href="https://hr.smartworldclub.net/11702356-how-to-download-and-install-cisco-packet-tracer-windows-10" target="_blank">
+                                            <button class="bottone33"><p class="testoCard">Apri Spiegazione</p></button>
+                                        </a>
+                                    </p>
+                                    <br>
+                                    <p class="testoBox"> 
+                                        <a href="https://www.packettracernetwork.com/download/download-packet-tracer.html" target="_blank">
+                                            <button class="bottone33"><p class="testoCard">download Packet Tracer</p></button>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>  
+            </div>
+        
+            <!-- Sezione 3 -->
+            <div id="sezione3" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(3)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Le origini</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\CiscoSystems.jpeg" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b> Esplora il background e l'evoluzione di Cisco Packet Tracer dalle sue prime versioni fino ai giorni nostri.</b></p>
+                                    <br>
+                                    <p class="testoBox">Negli anni 2000, Cisco Systems ha sviluppato Cisco Packet Tracer per supportare il programma Cisco Networking Academy, che forniva formazione pratica nel networking. L'obiettivo era superare le limitazioni nell'accesso a dispositivi di rete reali, offrendo agli studenti un'alternativa virtuale. La prima versione è stata rilasciata nel 2005, fornendo un ambiente virtuale per la progettazione e la simulazione di reti. Nel corso degli anni, il software è stato costantemente migliorato, diventando uno strumento potente per l'apprendimento delle competenze di networking. È diventato ampiamente utilizzato in istituti educativi e aziende in tutto il mondo, mantenendo il passo con gli sviluppi tecnologici del settore. Oggi, Cisco Packet Tracer è riconosciuto come uno degli strumenti principali nell'istruzione e nella formazione in networking, grazie alla sua continua evoluzione e innovazione.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>  
+            </div>
+        
+            <!-- Sezione 4 -->
+            <div id="sezione4" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(4)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Sviluppi chiave</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\academia-cisco.jpg" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>Scopri i momenti cruciali nella storia di Cisco Packet Tracer e come hanno contribuito alla sua crescita e popolarità.</b></p>
+                                    <p class="testoBox">Cisco Packet Tracer ha segnato un punto di svolta nell'apprendimento delle reti informatiche con il suo lancio nel 2005, offrendo agli studenti e agli insegnanti un ambiente sicuro per simulare reti virtuali e acquisire competenze pratiche. Nel corso degli anni, Cisco ha costantemente migliorato il software con nuove funzionalità e miglioramenti delle prestazioni, rendendolo sempre più potente e versatile. L'integrazione con il programma Cisco Networking Academy ha ampliato la sua diffusione nelle istituzioni educative di tutto il mondo, mentre la disponibilità gratuita per gli studenti ha stimolato ulteriormente la sua adozione. Il supporto per le ultime tecnologie di rete e le certificazioni Cisco ha reso Packet Tracer un prezioso strumento per la preparazione e l'aggiornamento professionale nel settore delle reti informatiche. Questi sviluppi chiave hanno contribuito alla crescita e alla popolarità di Cisco Packet Tracer, consolidandolo come uno degli strumenti più utilizzati e apprezzati nell'istruzione e nella formazione in networking.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+        
+            <!-- Sezione 5 -->
+            <div id="sezione5" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(5)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Innovazioni e aggiornamenti</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\copertina12.jpg" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>Cisco Packet Tracer ha costantemente integrato nuove funzionalità e tecnologie tra cui:</b></p>
+                                    <ol class="testoBox">
+                                        <li><strong>Supporto per tecnologie emergenti</strong>:come Software-Defined Networking (SDN), Network Function Virtualization (NFV) e Internet of Things (IoT). Questo permette agli utenti di esplorare e sperimentare con le tecnologie più avanzate.</li>
+                                      
+                                        <li><strong>Integrazione con DevNet</strong>: consentendo lo sviluppo e il testing di soluzioni di rete basate su software.</li>
+                                      
+                                        <li><strong>Miglioramenti dell'interfaccia utente</strong>: rendendo il software più intuitivo e facile da usare.</li>
+                                      
+                                        <li><strong>Integrazione con Cisco DNA Center</strong>: L'integrazione con Cisco DNA Center consente agli utenti di simulare e testare configurazioni di rete prima di implementarle in una rete reale, offrendo un ambiente virtuale controllato.</li>
+                                      
+                                        <li><strong>Educazione remota</strong>: Packet Tracer supporta l'educazione remota con funzionalità di collaborazione in tempo reale, laboratori virtuali condivisibili e integrazione con piattaforme di apprendimento online.</li>
+                                      </ol>
+                            
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+        
+            <!-- Sezione 6 -->
+            <div id="sezione6" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(6)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Impatto e futuro</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\copertina11.jpg" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>Analizza l'impatto di Cisco Packet Tracer sul settore delle reti e le prospettive future di questa potente piattaforma di simulazione.</b></p>
+                                    <p class="testoBox">
+                                        <ol class="testoBox">
+                                            <li><strong>Impatto sull'istruzione</strong>: Grazie alla sua disponibilità gratuita per gli studenti e agli insegnanti è diventato uno strumento fondamentale nelle aule di tutto il mondo, aiutando a formare la prossima generazione di professionisti di networking.</li>
+                                    
+                                            <li><strong>Impatto professionale</strong>: Packet Tracer non è solo uno strumento educativo; è anche utilizzato da professionisti del settore per testare e validare configurazioni di rete, sviluppare e testare soluzioni, e simulare scenari di rete complessi. Questo contribuisce a ridurre i rischi e i costi. Inoltre consente ai professionisti di networking di essere più preparati ed efficienti nel loro lavoro.</li>
+                                    
+                                            <li><strong>Prospettive future</strong>: Le prospettive future di Cisco Packet Tracer sono molto promettenti. Con l'evoluzione continua delle reti informatiche ci sarà una crescente domanda di strumenti di simulazione avanzati come Packet Tracer per esplorare e sperimentare con queste tecnologie in un ambiente virtuale controllato.</li>
+                                        </ol>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+        
+            <!-- Sezione 7 -->
+            <div id="sezione7" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(7)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Simulazione di reti</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\topologiaRete.webp" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>Cisco Packet Tracer consente agli utenti di simulare reti virtuali e testare diverse configurazioni di rete.</b></p>
+                                    <br>
+                                    <p class="testoBox">Gli utenti possono creare ambienti di rete virtuali complessi e realistici, replicando scenari reali o di laboratorio. Ciò consente loro di testare diverse configurazioni di rete e di esplorare vari scenari senza rischiare di compromettere reti reali o dispositivi di rete. La simulazione di reti è fondamentale per l'apprendimento pratico delle competenze di networking, consentendo agli utenti di sperimentare direttamente i concetti teorici appresi in classe o tramite la formazione online.
+                                        La simulazione di reti con Cisco Packet Tracer è un modo efficace per acquisire esperienza pratica nel campo delle reti informatiche. Gli utenti possono esplorare concetti chiave, risolvere problemi di rete e testare soluzioni in un ambiente virtuale sicuro e controllato.
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+        
+            <!-- Sezione 8 -->
+            <div id="sezione8" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(8)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Creazione e configurazione di topologie di rete</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\immaginecontorno(9).jpg" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>Gli utenti possono creare e configurare topologie di rete complesse utilizzando una vasta gamma di dispositivi di rete Cisco.</b></p>
+                                    <br>
+                                    <p class="testoBox">Gli utenti possono progettare e costruire topologie complesse utilizzando una vasta gamma di dispositivi preconfigurati come router, switch, firewall e PC. Questo offre un'esperienza pratica e interattiva per comprendere meglio i concetti di networking e sviluppare competenze pratiche. Gli utenti possono sperimentare diverse disposizioni di dispositivi, connessioni e configurazioni, esplorando scenari realistici e testando soluzioni per problemi comuni. Cisco Packet Tracer fornisce strumenti avanzati per monitorare il traffico di rete, diagnosticare problemi e testare soluzioni in un ambiente virtuale controllato, aiutando gli utenti a sviluppare competenze di risoluzione dei problemi essenziali per la gestione delle reti informatiche.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+        
+            <!-- Sezione 9 -->
+            <div id="sezione9" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(9)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Implementazione di dispositivi di rete Cisco</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\immaginecontorno(10).jpg" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>Cisco Packet Tracer offre una vasta selezione di dispositivi di rete Cisco che possono essere implementati e configurati nelle topologie di rete.</b></p>
+                                    <br>
+                                    <p class="testoBox">Gli utenti possono scegliere tra una vasta selezione di dispositivi, come router, switch, firewall, access point wireless e telefoni IP, per creare topologie realistiche che riflettano le reti informatiche reali.
+
+                                        L'implementazione di questi dispositivi consente agli utenti di configurare parametri come indirizzi IP, subnetting, VLAN, routing statico o dinamico e sicurezza, personalizzando la topologia secondo le loro specifiche esigenze di rete.
+                                        
+                                        Con l'ambiente completo di simulazione offerto da Cisco Packet Tracer, gli utenti possono testare e validare le loro configurazioni di rete in un ambiente virtuale sicuro. Ciò permette loro di esplorare diverse configurazioni e scenari senza il rischio di compromettere reti reali o dispositivi di rete.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+
+            <!-- Sezione 10 -->
+            <div id="sezione10" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(10)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Strumenti di analisi e diagnostica</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\diagnostica.jpeg" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>Packet Tracer fornisce strumenti per monitorare, analizzare e diagnosticare reti virtuali.</b></p>
+                                    <br>
+                                    <p class="testoBox">Cisco Packet Tracer mette a disposizione degli utenti una serie di strumenti di monitoraggio, analisi e diagnostica per esaminare e comprendere il comportamento delle reti virtuali. Questi strumenti consentono di raccogliere dati sul traffico di rete, monitorare le prestazioni dei dispositivi, individuare e risolvere problemi di rete, e analizzare le comunicazioni all'interno della rete.
+                                        Il monitoraggio del traffico di rete è fondamentale, in quanto permette agli utenti di visualizzare il flusso di dati tra i dispositivi di rete e identificare eventuali congestioni o problemi di performance. Inoltre, Packet Tracer offre strumenti di analisi del traffico per esaminare in dettaglio i pacchetti di dati, semplificando la diagnosi dei problemi di connettività e la risoluzione dei guasti.
+                                        Oltre al monitoraggio del traffico di rete, Packet Tracer fornisce strumenti per analizzare la configurazione dei dispositivi di rete, controllare lo stato delle interfacce di rete e eseguire test di connettività tra dispositivi. Questi strumenti aiutano gli utenti a identificare e risolvere problemi di configurazione, individuare dispositivi guasti e ottimizzare le prestazioni della rete.
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+
+            <!-- Sezione 11 -->
+            <div id="sezione11" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(11)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Cos'è un router?</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\router.png" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p>Un router è un dispositivo di rete utilizzato per instradare il traffico dati tra diverse reti, come ad esempio reti locali (LAN) e reti esterne come Internet. Ecco alcune delle sue funzioni principali:</p>
+                                    <ul class="testoBox">
+                                        <li><strong>Instradamento dei pacchetti:</strong> Un router analizza gli indirizzi IP dei pacchetti di dati che riceve e determina la via ottimale per instradare questi pacchetti al loro destinatario finale.</li>
+                                        <li><strong>Interconnessione di reti:</strong> Un router è in grado di connettere diverse reti tra loro, consentendo la comunicazione tra dispositivi appartenenti a reti diverse.</li>
+                                        <li><strong>Sicurezza di rete:</strong> I router possono implementare funzionalità di sicurezza di rete come firewall e VPN (Virtual Private Network) per proteggere la rete e i dati degli utenti da accessi non autorizzati e minacce esterne.</li>
+                                        <li><strong>Gestione del traffico:</strong> I router possono gestire il traffico di rete in modo efficiente, utilizzando tecniche come la Quality of Service (QoS) per garantire che il traffico prioritario, come il traffico voce o video, abbia la precedenza sulle altre forme di traffico.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+        
+            <!-- Sezione 12 -->
+            <div id="sezione12" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(12)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Cos'è uno Switch?</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\switch.jpg" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p>Uno switch è un dispositivo di rete utilizzato per connettere dispositivi all'interno di una rete locale (LAN), consentendo loro di comunicare tra loro scambiando pacchetti di dati. Lo switch opera a livello di collegamento dati (livello 2 del modello OSI) ed è in grado di instradare il traffico di rete in base agli indirizzi MAC (Media Access Control) dei dispositivi collegati. Ecco alcune delle sue funzioni principali:</p>
+                                    <ul class="testoBox">
+                                        <li><strong>Instradamento del traffico:</strong> Uno switch instrada il traffico di rete tra i dispositivi collegati in base agli indirizzi MAC dei dispositivi.</li>
+                                        <li><strong>Creazione di reti a commutazione:</strong> Gli switch consentono di creare reti a commutazione, in cui il traffico di rete viene instradato direttamente tra il mittente e il destinatario, anziché essere trasmesso a tutti i dispositivi sulla rete.</li>
+                                        <li><strong>Segmentazione della rete:</strong> Gli switch consentono di segmentare una rete in più segmenti o VLAN (Virtual Local Area Network), consentendo di isolare il traffico di rete tra diversi gruppi di dispositivi.</li>
+                                        <li><strong>Aumento della larghezza di banda:</strong> Gli switch possono aggregare più collegamenti di rete per aumentare la larghezza di banda disponibile e migliorare le prestazioni della rete.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+        
+            <!-- Sezione 13 -->
+            <div id="sezione13" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(13)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Cos'è un Dispositivo Wireless?</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft" style="width: 40%;">
+                                <img src="immaginiPacketTracer\AP.jpg" class="imgSezione">
+                            </div>
+                            <div class="box animatedElement slideInRight">
+                                    <p>Un dispositivo wireless è un dispositivo elettronico che comunica senza fili attraverso onde radio, onde infrarosse o altre tecnologie wireless. Questi dispositivi utilizzano frequenze radio o altri metodi di trasmissione senza fili per inviare e ricevere dati, consentendo la comunicazione e il trasferimento di informazioni senza la necessità di cavi fisici. Ecco alcuni esempi comuni di dispositivi wireless:</p>
+                                    <ul class="testoBox">
+                                        <li><strong>Dispositivi mobili:</strong> Questi includono smartphone, tablet, laptop e altri dispositivi portatili che si connettono a reti wireless come Wi-Fi o reti cellulari per accedere a Internet e comunicare con altri dispositivi.</li>
+                                        <li><strong>Dispositivi di rete:</strong> Router wireless, access point sono dispositivi di rete che consentono di creare reti wireless locali (WLAN) e estendere la copertura della rete Wi-Fi in una determinata area.</li>
+                                        <li><strong>Dispositivi di sicurezza:</strong> Telecamere di sicurezza, sistemi di allarme e sensori di movimento wireless che trasmettono dati senza fili per il monitoraggio e il controllo remoto della sicurezza di una casa o di un'azienda.</li>
+                                        <li><strong>Dispositivi di intrattenimento:</strong> Questi includono televisori intelligenti, altoparlanti wireless, lettori multimediali in streaming e console di gioco che si connettono a reti wireless per lo streaming di contenuti multimediale e l'accesso a servizi di intrattenimento online.</li>
+                                        <li><strong>Dispositivi IoT:</strong> Dispositivi Internet of Things (IoT) come termostati intelligenti, luci intelligenti, sensori ambientali e dispositivi per la domotica che si connettono a reti wireless per la raccolta e lo scambio di dati per l'automazione domestica e industriale.</li>
+                                    </ul>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+        
+            <!-- Sezione 14 -->
+            <div id="sezione14" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(14)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Cos'è un Firewall?</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\firewall.jpeg" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p>Un firewall è un componente di sicurezza di rete progettato per proteggere una rete informatica controllando e monitorando il traffico in entrata e in uscita sulla base di un insieme di regole predefinite. Ecco alcune delle sue funzioni principali:</p>
+                                    <ul class="testoBox">
+                                        <li><strong>Filtraggio del traffico:</strong> Un firewall analizza il traffico di rete in entrata e in uscita e applica regole di filtraggio per determinare se il traffico deve essere consentito o bloccato.</li>
+                                        <li><strong>Prevenzione di intrusioni:</strong> I firewall possono essere dotati di funzionalità di prevenzione delle intrusioni (IPS) che monitorano il traffico di rete per rilevare e bloccare attività sospette o tentativi di accesso non autorizzato alla rete.</li>
+                                        <li><strong>Protezione da attacchi:</strong> I firewall sono in grado di proteggere la rete da una vasta gamma di attacchi informatici, tra cui attacchi di tipo Denial of Service (DoS), attacchi di scansione di porte, attacchi di spoofing e molti altri.</li>
+                                        <li><strong>Controllo dell'accesso:</strong> I firewall possono essere configurati per controllare l'accesso alla rete e alle risorse all'interno della rete, consentendo solo a determinati utenti o dispositivi di accedere a determinati servizi o risorse di rete.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+        
+            <!-- Sezione 15 -->
+            <div id="sezione15" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(15)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Cos'è un Telefono ip</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft"  style="width: 30%;">
+                                <img src="immaginiPacketTracer\telefonoIP.jpg" class="imgSezione">
+                            </div>
+                            <div class="colonna" style="width: 70%;">
+                                <div class="box animatedElement slideInRight">
+                                    <p>Un telefono IP, o telefono VoIP (Voice over Internet Protocol), è un dispositivo di comunicazione che consente agli utenti di effettuare chiamate vocali utilizzando una rete IP anziché la tradizionale rete telefonica pubblica commutata (PSTN). Questi telefoni convertono il segnale vocale in dati digitali, che vengono quindi trasmessi attraverso la rete IP utilizzando il protocollo VoIP. Ecco alcune delle sue caratteristiche principali:</p>
+                                    <ul class="testoBox">
+                                        <li><strong>Comunicazioni basate su IP:</strong> I telefoni IP utilizzano il protocollo VoIP per trasmettere chiamate vocali attraverso una rete IP, come Internet o una rete aziendale.</li>
+                                        <li><strong>Integrazione con altre applicazioni:</strong> I telefoni IP possono essere integrati con altre applicazioni aziendali, come la posta elettronica, la messaggistica istantanea e i sistemi di gestione delle chiamate.</li>
+                                        <li><strong>Mobilità:</strong> I telefoni IP possono essere utilizzati in qualsiasi luogo con connessione Internet, consentendo agli utenti di effettuare e ricevere chiamate da qualsiasi posizione.</li>
+                                        <li><strong>Qualità audio:</strong> I telefoni IP offrono generalmente una qualità audio elevata, grazie alla trasmissione digitale dei dati e alle tecnologie di compressione audio avanzate.</li>
+                                        <li><strong>Funzionalità avanzate:</strong> I telefoni IP possono includere una vasta gamma di funzionalità avanzate, come la gestione delle chiamate in conferenza, la trasferibilità delle chiamate, la segreteria telefonica integrata e la rubrica contatti.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+        
+            <!-- Sezione 16 -->
+            <div id="sezione16" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(16)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Altri dispositivi e tecnologie</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\server.jpeg" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p>Ci sono diversi altri dispositivi utilizzati nelle reti informatiche. Ecco alcuni esempi:</p>
+                                    <ul class="testoBox">
+                                        <li><strong>Server:</strong> Un server è un computer o un dispositivo specializzato che fornisce servizi, risorse o funzionalità a altri dispositivi, noto come client.</li>
+                                        <li><strong>Hub:</strong> Un hub di rete è un dispositivo che funge da punto di connessione per i dispositivi di rete all'interno di una LAN (Local Area Network).</li>
+                                        <li><strong>Access Point (AP):</strong> Un access point è un dispositivo di rete che permette ai dispositivi wireless di connettersi a una rete cablata.</li>
+                                        <li><strong>Modem:</strong> Un modem è un dispositivo che consente ai computer e ad altri dispositivi di comunicare con una rete esterna, come Internet, utilizzando una connessione cablata o wireless.</li>
+                                        <li><strong>Gateway:</strong> Un gateway è un dispositivo che funge da punto di ingresso o di uscita tra due reti diverse, consentendo la comunicazione tra di esse.</li>
+                                        <li><strong>Repeater:</strong> Un ripetitore è un dispositivo che estende la portata di una rete wireless ripetendo o amplificando il segnale wireless originale.</li>
+                                        <li><strong>Bridge:</strong> Un bridge è un dispositivo che collega due segmenti di rete LAN in modo trasparente, consentendo la comunicazione tra di essi.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+        
+            <!-- Sezione 17 -->
+            <div id="sezione17" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(17)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Esercizi di configurazione di base</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\Switching-Logic-1.gif" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>Esercizi pratici per acquisire competenze di base nella configurazione di dispositivi di rete.</b></p>
+                                    <ul class="testoBox">
+                                        <li><strong>Configurazione di indirizzi IP:</strong> Impostare manualmente un indirizzo IP su dispositivi di rete, comprendendo tipi di indirizzi, subnettizzazione e parametri come IP, subnet mask e gateway.</li>
+                                        <li><strong>Configurazione di VLAN:</strong> Creare e gestire VLAN su uno switch, segmentando la rete e configurando l'inter-VLAN routing se necessario.</li>
+                                        <li><strong>Routing statico:</strong> Configurare rotte statiche su un router per instradare il traffico, comprendendo concetti di routing e test di connettività.</li>
+                                        <li><strong>Server DHCP:</strong> Configurare e gestire un server DHCP per assegnare dinamicamente indirizzi IP, comprendendo pool DHCP e opzioni di configurazione.</li>
+                                        <li><strong>Firewall:</strong> Configurare regole di firewall per filtrare il traffico di rete, comprendendo NAT, VPN e altre funzionalità di sicurezza.</li>
+                                    </ul>
+                                    <p>Questi esercizi forniscono una solida base pratica e teorica, essenziale per gestire dispositivi di rete in ambienti reali.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+        
+            <!-- Sezione 18 -->
+            <div id="sezione18" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(18)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Progetti di reti LAN</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\LAN.gif" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>Progetti pratici per la progettazione e l'implementazione di reti locali.</b></p>
+                                    <br>
+                                    <p class="testoBox">
+                                        I progetti di reti LAN coinvolgono la progettazione e l'implementazione di reti locali su misura per le esigenze specifiche di un'organizzazione o di un ambiente domestico. Queste attività includono la definizione della topologia di rete, la selezione dei dispositivi e la configurazione delle impostazioni per garantire prestazioni, sicurezza e affidabilità ottimali.
+                                        
+                                        Una rete LAN è un sistema informatico limitato a un'area geografica specifica che consente ai dispositivi di comunicare e condividere risorse. Le reti LAN sono gestite dall'organizzazione e sono essenziali per la comunicazione interna ed esterna.
+                                        
+                                        Le caratteristiche principali di una rete LAN includono la topologia di rete, i dispositivi di rete come switch e router, i protocolli di rete come Ethernet e TCP/IP, la sicurezza di rete con firewall e VPN, e la gestione della rete per monitorare le prestazioni e risolvere i problemi.
+                                        
+                                        I progetti di reti LAN forniscono competenze pratiche nella progettazione e gestione di reti personalizzate, adattate alle esigenze specifiche dell'ambiente in cui sono implementate.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+        
+            <!-- Sezione 19 -->
+            <div id="sezione19" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(19)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Progetti di reti WAN</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\wan-network.gif" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>
+                                        Progetti pratici per la progettazione e l'implementazione di reti wide area.</b></p>
+                                    <br>
+                                    <p>I progetti di reti WAN e MAN si concentrano sulla progettazione e implementazione di reti estese su vasti territori o all'interno di aree metropolitane.</p>
+                                    <h2>Rete WAN</h2>
+                                    <p>Una rete WAN copre ampie aree geografiche, collegando siti remoti attraverso varie tecnologie di trasmissione come linee dedicate e VPN.</p>
+                                    <p>Offre larghezza di banda elevata, alta velocità e misure di ridondanza per garantire l'affidabilità delle comunicazioni su lunghe distanze.</p>
+                                    <h2>Rete MAN</h2>
+                                    <p>Una rete MAN, invece, serve un'area metropolitana, connettendo diversi siti all'interno della città.</p>
+                                    <p>Anche qui si trovano tecnologie di trasmissione avanzate come la fibra ottica e la rete wireless, con un'alta velocità e larghezza di banda.</p>                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+            <!-- Sezione 20 -->
+            <div id="sezione20" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(20)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1  animatedElement slideInTop">
+                        <h1 class="titolo1">Implementazione di servizi di rete</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\Fase-2-Simulazione-Parte-2.gif" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b> Progetti pratici per l'implementazione di servizi di rete come VPN, VoIP, etc.</b></p>
+                                    <ul class="testoBox">
+                                        <li>
+                                            <strong>VPN (Virtual Private Network):</strong>
+                                            <ul>
+                                                <li>Consente la connessione sicura a una rete privata tramite una rete pubblica, come Internet.</li>
+                                                <li>Fornisce crittografia per garantire la riservatezza e l'integrità dei dati trasmessi.</li>
+                                                <li>Utilizzato per accesso remoto sicuro e collegamento di reti distanti.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>VoIP (Voice over Internet Protocol):</strong>
+                                            <ul>
+                                                <li>Trasmette chiamate vocali tramite una rete IP invece della rete telefonica tradizionale.</li>
+                                                <li>Offre chiamate vocali a basso costo e ad alta qualità utilizzando la larghezza di banda disponibile sulla rete IP.</li>
+                                                <li>Include funzionalità avanzate come videochiamate e messaggistica istantanea.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>Servizi di condivisione di file:</strong>
+                                            <ul>
+                                                <li>Consentono agli utenti di condividere e accedere ai file e alle risorse di rete in modo collaborativo e sicuro.</li>
+                                                <li>Include server di file condivisi e servizi cloud di archiviazione e condivisione di documenti.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>Servizi di posta elettronica:</strong>
+                                            <ul>
+                                                <li>Forniscono un sistema per l'invio, la ricezione e la gestione delle email.</li>
+                                                <li>Può essere ospitato internamente o tramite fornitori di servizi di posta elettronica basati su cloud.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>Servizi di monitoraggio di rete:</strong>
+                                            <ul>
+                                                <li>Monitorano le prestazioni e la disponibilità della rete e rilevano e risolvono i problemi di rete in tempo reale.</li>
+                                                <li>Include strumenti di monitoraggio della larghezza di banda e software di diagnostica di rete.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>Servizi di sicurezza di rete:</strong>
+                                            <ul>
+                                                <li>Proteggono la rete e i dati da minacce informatiche utilizzando firewall, antivirus e altre misure di sicurezza.</li>
+                                                <li>Assicurano la riservatezza, l'integrità e la disponibilità dei dati.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>Servizi di gestione delle identità e degli accessi:</strong>
+                                            <ul>
+                                                <li>Gestiscono centralmente gli account utente, l'autenticazione e l'autorizzazione per accedere alle risorse di rete.</li>
+                                                <li>Include sistemi di gestione delle identità e servizi di directory.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>Servizi di telepresenza e videoconferenza:</strong>
+                                            <ul>
+                                                <li>Consentono di condurre riunioni e comunicazioni aziendali in tempo reale tramite video e audio su una rete IP.</li>
+                                                <li>Migliorano la collaborazione e riducono i costi di viaggio.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>Servizi di backup e ripristino dei dati:</strong>
+                                            <ul>
+                                                <li>Proteggono e ripristinano i dati aziendali critici mediante backup regolari e ripristino dei dati in caso di perdita o danneggiamento.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>Servizi di gestione delle reti wireless:</strong>
+                                            <ul>
+                                                <li>Configurano, gestiscono e monitorano le reti wireless aziendali, inclusa la sicurezza e la gestione delle prestazioni.</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+            <!-- Sezione 21 -->
+            <div id="sezione21" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(21)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1 animatedElement slideInTop">
+                        <h1 class="titolo1">Simulazione realistica delle reti</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer/maxresdefault.jpg" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>Cisco Packet Tracer offre un ambiente di simulazione altamente realistico che consente agli utenti di creare e configurare reti virtuali complete.</b></p>
+                                    <br>
+                                    <p>Questo permette agli studenti e ai professionisti di sperimentare scenari di rete realistici senza la necessità di disporre di hardware fisico costoso.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+
+            <!-- Sezione 22 -->
+            <div id="sezione22" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(22)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1 animatedElement slideInTop">
+                        <h1 class="titolo1">Apprendimento pratico</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer/OIP.jpeg" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>Cisco Packet Tracer favorisce un apprendimento pratico e interattivo grazie alla sua interfaccia intuitiva e alle numerose funzionalità.</b></p>
+                                    <br>
+                                    <p>Gli utenti possono esplorare i concetti di networking in modo attivo, creando, configurando e gestendo reti virtuali in tempo reale.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+
+            <!-- Sezione 23 -->
+            <div id="sezione23" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(23)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1 animatedElement slideInTop">
+                        <h1 class="titolo1">Dispositivi di rete preconfigurati</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\image3.gif" class="imgSezione">
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>Packet Tracer include una vasta gamma di dispositivi di rete preconfigurati, come router, switch, firewall e telefoni IP.</b></p>
+                                    <br>
+                                    <p>Questi dispositivi permettono agli utenti di esplorare e comprendere il funzionamento di apparecchiature di rete reali e le loro interazioni all'interno di una topologia di rete.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+
+            <!-- Sezione 24 -->
+            <div id="sezione24" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(24)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1 animatedElement slideInTop">
+                        <h1 class="titolo1">Supporto per lezioni e laboratori</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\image5.gif" class="imgSezione">
+                           </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>Packet Tracer è ampiamente utilizzato in istituti di istruzione e formazione professionale come strumento didattico per insegnare i concetti di networking.</b></p>
+                                    <br>
+                                    <p>Offre una piattaforma flessibile per la creazione di lezioni, laboratori pratici e esercizi di simulazione che possono essere personalizzati in base alle esigenze del corso.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+
+            <!-- Sezione 25 -->
+            <div id="sezione25" class="sezioneSpecifica">
+                <div>
+                    <button class="chiudi-sezione" onclick="chiudiSezione(25)">Chiudi</button>
+                </div>
+                <div>
+                    <div class="contenitoreTitolo1 animatedElement slideInTop">
+                        <h1 class="titolo1">Sviluppo delle competenze pratiche</h1>
+                    </div>
+                    <div>
+                        <div class="divSezioneSpecifica">
+                            <div class="colonna animatedElement slideInLeft">
+                                <img src="immaginiPacketTracer\image6.gif" class="imgSezione"> 
+                            </div>
+                            <div class="colonna">
+                                <div class="box animatedElement slideInRight">
+                                    <p class="testoBox"><b>L'uso di Cisco Packet Tracer consente agli utenti di sviluppare competenze pratiche essenziali nel progettare, configurare e risolvere problemi nelle reti di computer.</b></p>
+                                    <br>
+                                    <p>Queste competenze sono preziose per gli studenti che cercano una carriera nel settore IT e per i professionisti che vogliono migliorare le proprie abilità di networking.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br>                           
+                    </div>
+                </div>             
+            </div>
+
+        </div>
+    </main>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="js/navbar.js"></script>
+
+
+</html>
